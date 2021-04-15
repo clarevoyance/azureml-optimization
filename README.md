@@ -134,8 +134,7 @@ Using HyperDrive for automated hyperparameter tuning, an accuracy of `90.82%` wa
 
 While HyperDrive was only focused on finding the most ideal hyperparameters for logistic regression, AutoML utilized many different types of machine learning models, including ensembled methods to find the optimal model. This would be the equivalent of creating a new pipeline for each HyperDrive model and would therefore use far more resources. As seen in the comparison, the AutoML model managed to successfully beat the HyperDrive model despite having less than half as many iterations.
 
-## <a name="6">Future work</a>
-**What are some areas of improvement for future experiments? Why might these improvements help the model?**
+## <a name="6">Future Work</a>
 
 ### HyperDrive Model
 
@@ -143,7 +142,7 @@ Instead of random parameter sampling, Bayesian sampling can be used instead. Bet
 
 ### AutoML Model
 
-There is a clear class imbalance with 3,692 positive classes and 29,258 negative classes and addressing this will reduce the model bias. As seen in the confusion matrix and despite the impressive AUC and accuracy score, almost half of the positive classes were wrongly classified.
+There is a clear class imbalance with 3,692 positive classes and 29,258 negative classes and addressing this will reduce the model bias. As seen in the confusion matrix and despite the impressive AUC and accuracy score, almost half of the positive classes were wrongly classified. Given that only 20 AutoML runs were performed, this can be further increased. Similar to the HyperDrive model, better feature engineering can also be utilized with the use of ordinal instead of one-hot encoding for certain features.
 
 ## <a name="7">Clean Up</a>
 
