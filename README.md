@@ -31,8 +31,6 @@ Both models' best runs will then be compared with a report of the findings in th
 
 ![](images/ch1_1.png)
 
-Therefore, this is a binary classification problem where the goal is to train a model to predict the outcome of whether a client will subscribe to a term deposit, based on a variety of predictor variables. Since the outcome is known, this is a supervised learning problem.
-
 
 ### <a name="2A">Files Used</a> 
 - `train.py`
@@ -40,6 +38,9 @@ Therefore, this is a binary classification problem where the goal is to train a 
 
 ###  <a name="2B">Dataset</a>
 The `bankmarketing_train.csv` dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Bank+Marketing) is related with the directing marketing campaigns of a Portuguese banking institution. The data collection for these marketing campaigns were based on phone calls and often, more than one contact to the same client was required, in order to assess if the product (bank term deposit) would be (`'yes'`) or (`'no'`) subscribed.
+
+Therefore, this is a binary classification problem where the goal is to train a model to predict the outcome of whether a client will subscribe to a term deposit, based on a variety of predictor variables. Since the outcome is known, this is a supervised learning problem.
+
 
 1. `age` - age of the client (numeric)
 2. `job` - type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
