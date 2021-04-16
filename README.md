@@ -41,7 +41,7 @@ The `bankmarketing_train.csv` dataset from the [UCI Machine Learning Repository]
 
 Therefore, this is a binary classification problem where the goal is to train a model to predict the outcome of whether a client will subscribe to a term deposit, based on a variety of predictor variables. Since the outcome is known, this is a supervised learning problem.
 
-
+#### Input Variables
 1. `age` - age of the client (numeric)
 2. `job` - type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')
 3. `marital` - marital status (categorical)
@@ -62,6 +62,8 @@ Therefore, this is a binary classification problem where the goal is to train a 
 18. `cons.conf.idx` - consumer confidence index - monthly indicator (numeric)
 19. `euribor3m` - euribor 3 month rate - daily indicator (numeric)
 20. `nr.employed` - number of employees - quarterly indicator (numeric)
+
+#### Output Variables
 21. `y` - has the client subscribed a term deposit? (binary: 'yes', 'no')
 
 ## <a name="3">Part 1: Scikit-learn Pipeline</a>
