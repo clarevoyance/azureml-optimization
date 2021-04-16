@@ -81,7 +81,6 @@ We will be using logistic regression from the Scikit-learn library as a classifi
 
 We have used the [`RandomParameterSampler`](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.randomparametersampling?view=azure-ml-py) where random sampling is performed over a hyperparameter search space. The benefits of it include the possibility of hyperparameter values been chosen from a set of discrete values or a distribution over a continuous range.
 
-**What are the benefits of the early stopping policy you chose?**
 ### <a name="3C">Benefits of Early Stopping Policy</a>
 
 An early stopping policy is implemented to prevent experiments from running a long time and using up resources. It reduces waste in overrunning costs, thereby improving computational efficiency.
@@ -134,7 +133,7 @@ Using HyperDrive for automated hyperparameter tuning, an accuracy of `90.82%` wa
 
 While HyperDrive was only focused on finding the most ideal hyperparameters for logistic regression, AutoML utilized many different types of machine learning models, including ensembled methods to find the optimal model. This would be the equivalent of creating a new pipeline for each HyperDrive model and would therefore use far more resources. As seen in the comparison, the AutoML model managed to successfully beat the HyperDrive model despite having less than half as many iterations.
 
-## <a name="6">Future Work</a>
+## <a name="6">Future Wwrk</a>
 
 ### HyperDrive Model
 
