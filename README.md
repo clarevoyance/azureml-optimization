@@ -63,7 +63,7 @@ Therefore, this is a binary classification problem where the goal is to train a 
 19. `euribor3m` - euribor 3 month rate - daily indicator (numeric)
 20. `nr.employed` - number of employees - quarterly indicator (numeric)
 
-#### Output Variables
+#### Output Variable
 21. `y` - has the client subscribed a term deposit? (binary: 'yes', 'no')
 
 ## <a name="3">Part 1: Scikit-learn Pipeline</a>
