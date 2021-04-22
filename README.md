@@ -136,7 +136,7 @@ Using HyperDrive for automated hyperparameter tuning, an accuracy of `90.82%` wa
 
 While HyperDrive was only focused on finding the most ideal hyperparameters for logistic regression, AutoML utilized many different types of machine learning models, including ensembled methods to find the optimal model. This would be the equivalent of creating a new pipeline for each HyperDrive model and would therefore use far more resources. As seen in the comparison, the AutoML model managed to successfully beat the HyperDrive model despite having less than half as many iterations.
 
-## <a name="6">Future Wwrk</a>
+## <a name="6">Future Work</a>
 
 ### HyperDrive Model
 
